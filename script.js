@@ -29,10 +29,6 @@ function createCards() {
     shuffleArray(cards);
 }
 
-homebtn = document.getElementById('homeBtn');
-homebtn.addEventListener('click', () => {
-    window.location.href = 'http://127.0.0.1:5500/'; // Ajusta la ruta según la ubicación de tu archivo index.html
-});
 
 // Función para mezclar un array (algoritmo de Fisher-Yates)
 function shuffleArray(array) {
